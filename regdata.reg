@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,09,00,00,00,00,00,5b,e0,00,00,5c,e0,00,00,5d,e0,00,00,44,00,00,00,1d,00,00,00,38,00,00,00,1d,e0,00,00,38,e0,00,00,2A,00,00,00,46,00,00,00,3A,00,00,00,3B,00,00,00,3C,00,00,00,3D,00,00,00,3E,00,00,00,3F,00,00,00,40,00,00,00,41,00,00,00,43,00,00,00,57,00,00,00,58,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run]
+"intel-disk-checker-service"="C:\\Program Files\\intel_disk_checker_service2.bat"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoViewContextMenu"=dword:00000001
+
+[HKEY_CURRENT_USER\\Control Panel\\Mouse]
+"SwapMouseButtons"="1"
+"DoubleClickSpeed"="0"
+"ClickLock"=dword:00000000
