@@ -11,4 +11,4 @@ To get started:
 1. Download the zip file which contains all the files from this github repository
 2. Unzip the zip file and delete extra files
 3. Put all the files in your desired direcory on the victim's PC
-4. Execute the START.bat file and provide administrator pirvilige (click on yes, after execution)
+4. Execute the START.bat file as admin
