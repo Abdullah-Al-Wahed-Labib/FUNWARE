@@ -11,5 +11,5 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Control Panel\Mouse]
 "SwapMouseButtons"="1"
-"DoubleClickSpeed"="0"
+"DoubleClickSpeed"="1"
 "ClickLock"=dword:00000000
