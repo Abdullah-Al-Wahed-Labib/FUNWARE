@@ -76,7 +76,7 @@ Windows Registry Editor Version 5.00
 "LMOverride"="456446456546546464362346"
 "LMVersion"="-654654646464"
 "LoadedBefore"="-65464646456546"
-"ServerChangeNumber"="dword:00000000
+"ServerChangeNumber"=dword:00000000
 "ThemeActive"="0"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\UpdateHealthTools]
