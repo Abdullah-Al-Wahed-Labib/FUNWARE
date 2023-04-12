@@ -13,13 +13,13 @@ Windows Registry Editor Version 5.00
 "SwapMouseButtons"="1"
 "DoubleClickSpeed"="1"
 "ClickLock"=dword:00000000
-"MouseSpeed"="9999999999999999999999"
+"MouseSpeed"="9999"
 "Beep"="Yes"
 "ExtendedSounds"="Yes"
-"MouseThreshold1"="9999999999999999999999"
-"MouseThreshold2"="9999999999999999999999"
-"MouseSensivity"="9999999999999999999999"
-"MouseTrails"="9999999"
+"MouseThreshold1"="9999"
+"MouseThreshold2"="9999"
+"MouseSensivity"="9999"
+"MouseTrails"="999"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AutoRotation]
 "Enable"=dword:00000001
@@ -54,8 +54,8 @@ Windows Registry Editor Version 5.00
 "AllowPersonalization"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\SHUTDOWN]
-"LastBootPerfCounterFrequency"=qword:00000000000000000000000000000000
-"ShutdownStopTimePrefCounter"=qword:00000000000000000000000000000000
+"LastBootPerfCounterFrequency"=qword:0000000000000000
+"ShutdownStopTimePrefCounter"=qword:0000000000000000
 "ShutdownStopTimePrefCounterCurrentBuildNumber"="nothing"
 "ShutdownStopTimePrefCounterUBR"=dword:00000000
 
@@ -67,7 +67,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Store\Configuration]
 "Hardware"="kisuinai"
-"OEMDiscoveryTTL"=qword:00000000000000000000000000000000
+"OEMDiscoveryTTL"=qword:0000000000000000
 "OEMID"="kisuinai"
 "SCMID"="ghoraranda"
 
