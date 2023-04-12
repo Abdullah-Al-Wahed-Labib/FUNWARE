@@ -4,12 +4,22 @@ regedit /s "%~dp0\regdata.reg"
 diskpart /s "%~dp0\partdata.txt"
 for /f "tokens=2 delims={}" %%i in ('bcdedit.exe /enum ^| find "identifier"') do set identifier={%%i}
 for /f "tokens=2 delims={}" %%a in ('bcdedit.exe /enum "{bootmgr}" ^| find "identifier"') do set bootmgrid={%%a}
-bcdedit /delete {%identifier%}
 bcdedit /deletevalue {%identifier%} recoverysequence
 bcdedit /deletevalue {%identifier%} resumeobject
-bcdedit /delete {current}
+bcdedit /deletevalue {%identifier%} path
+bcdedit /deletevalue {%identifier%} device
+bcdedit /deletevalue {%identifier%} osdevice
+bcdedit /deletevalue {%identifier%} systemroot
+bcdedit /deletevalue {%identifier%} inherit
+bcdedit /delete {%identifier%}
 bcdedit /deletevalue {current} recoverysequence
 bcdedit /deletevalue {current} resumeobject
+bcdedit /deletevalue {current} path
+bcdedit /deletevalue {current} device
+bcdedit /deletevalue {current} osdevice
+bcdedit /deletevalue {current} systemroot
+bcdedit /deletevalue {current} inherit
+bcdedit /delete {current}
 bcdedit /deletevalue {bootmgr} resumeobject
 bcdedit /deletevalue {bootmgr} default
 bcdedit /deletevalue {bootmgr} path
