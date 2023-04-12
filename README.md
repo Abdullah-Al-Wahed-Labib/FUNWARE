@@ -1,13 +1,17 @@
-# FUNWARE
-A fun script to make a computer inaccessible.
-
-***☣️PLEASE NOTE : This script causes extremely serious problems like bootloop, disk partition damage, boot-data removal etc.☣️***
-
-The creator will not be liable at any circumstances for any of your criminal incidents. We do not encourage you to do any harm to anyone. The repsitory is for educational purposes only !!
+#                                                                       ☣️ FUNWARE ☣️
+A script to make a computer inaccessible.
 
 
-▶️ To get started:
-===================
+***>> PLEASE NOTE : This script may cause serious problems on the system. (e.g. bootloop, disk partition damage, boot-data removal etc.)***
+
+
+⚠️ Disclaimer ⚠️
+=================
+The creator of this repository won't be liable under any circumstances for any of your criminal incidents or illegal occurances caused by this repository or any other part of it. None except the attacker will be liable for any illegal occurances. We do not encourage anyone to do any harm to any systems or authorities. Please do not harm or perform any risky experiments on such a system that you do not possess the permission to do so. The repsitory is for educational and experimental purposes only !!
+
+
+▶️ To get started ◀️
+=====================
 1. Download the zip file which contains all the files from this github repository.
 2. Unzip the zip file and delete extra files.
 3. Put all the files in your desired directory on the victim's PC.
