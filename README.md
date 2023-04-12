@@ -1,5 +1,5 @@
 #                                                                       ☣️ FUNWARE ☣️
-A batchscript to make a computer inaccessible.
+A batchscript to make a Windows PC inaccessible.
 
 
 ***>> PLEASE NOTE : This script may cause serious problems on the system. (e.g. bootloop, disk partition damage, boot-data removal etc.)***
