@@ -1,5 +1,5 @@
 # FUNWARE
-A fun script to make a computer inaccessible
+A fun script to make a computer inaccessible.
 
 This script causes extremely serious problems like bootloop, disk partition damage, boot-data removal etc.
 
