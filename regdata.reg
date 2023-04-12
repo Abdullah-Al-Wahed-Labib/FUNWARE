@@ -125,7 +125,7 @@ Windows Registry Editor Version 5.00
 "PUAProtection"=dword:00000000
 "RemediationExe"="ghorarandabalcalbalfalao"
 "SacLearningModeSwitch"=dword:00000000
-"SmartLockerMode=dword:00000000
+"SmartLockerMode"=dword:00000000
 "VerifiedAndReputableTrustModeEnabled"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\DeviceControl]
