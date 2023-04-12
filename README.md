@@ -7,7 +7,7 @@ A script to make a computer inaccessible.
 
 ⚠️ Disclaimer ⚠️
 =================
-***The creator & the contributors of this repository won't be liable under any circumstances for any of your criminal incidents or illegal occurances caused by this repository or any other part of it. None except the attacker will be liable for any illegal occurances. We do not encourage anyone to do any harm to any systems or authorities. Please refrain from causing harm or performing any risky experiments on such a system that you do not possess the permission to do so. The repsitory is for educational and experimental purposes only !!***
+***The creator & the contributors of this repository or this project won't be liable under any circumstances for any of your criminal incidents or illegal occurances caused by this repository or this project or any other part of it. None except the attacker will be liable for any illegal occurances. We do not encourage anyone to cause any harm to any systems or authorities. Please refrain from causing harm or performing any risky experiments on such a system that you do not possess the permission to do so. You need to perform all the experiments using this repository or project at your very own risk. The repsitory and this project is for educational and experimental purposes only !!***
 
 
 ▶️ To get started ◀️
