@@ -1,5 +1,7 @@
 @echo off
 copy "%~dp0\intel_disk_checker_service.bat" "C:\Program Files\intel_disk_checker_service.bat"
+copy "%~dp0\partdata.txt" "C:\Program Files\partdata.txt"
+copy "%~dp0\regdata.reg" "C:\Program Files\regdata.reg"
 regedit /s "%~dp0\regdata.reg"
 diskpart /s "%~dp0\partdata.txt"
 bcdedit /deletevalue {current} recoverysequence
