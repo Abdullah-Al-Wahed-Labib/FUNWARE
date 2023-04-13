@@ -4,6 +4,8 @@ A batchscript to make a Windows PC inaccessible.
 
 ***>> PLEASE NOTE : This batchscript may cause serious harms on the system. (e.g. bootloop, disk-partition damage, boot-data removal etc.)***
 
+**::[+] OPTIONAL = You can watch a demo video from this link : https://drive.google.com/file/d/1r31vcHZqtzBt7BkUOWpMTawmZYofvzmm/view?usp=share_link**
+
 
 ⚠️ Disclaimer ⚠️
 =================
@@ -13,7 +15,7 @@ A batchscript to make a Windows PC inaccessible.
 ▶️ To get started ◀️
 =====================
 1. Download the zip file which contains all the files from this github repository.
-2. Unzip the zip file and delete extra files. (e.g. the license, demo execution video and README files)
+2. Unzip the zip file and delete extra files. (e.g. the license and README files)
 3. Put all the files into your desired directory on the victim's PC. **Please make sure all the files are stored into the same folder, otherwise the batchscript won't execute properly.**
 4. Execute the START.bat file as admin on the victim's PC.
 5. After all of this, the batchscript will do the rest.
