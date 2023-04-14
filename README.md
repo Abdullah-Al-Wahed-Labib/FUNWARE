@@ -4,7 +4,7 @@ A batchscript to make a Windows PC inaccessible.
 
 ***>> PLEASE NOTE : This batchscript may cause serious harms on the system. (e.g. bootloop, disk-partition damage, boot-data removal etc.)***
 
-**::[+] OPTIONAL = You can watch a free demo execution video from this link : https://drive.google.com/file/d/1r31vcHZqtzBt7BkUOWpMTawmZYofvzmm/view?usp=share_link**
+**::[+] OPTIONAL = You can watch a free demo execution video from this link : https://drive.google.com/file/d/1n4Vy-zdhfvgUkFjVzvbEHbM_Fl1XWNz9/view?usp=share_link**
 
 
 ⚠️ Disclaimer ⚠️
