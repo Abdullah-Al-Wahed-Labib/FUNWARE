@@ -41,6 +41,171 @@ bcdedit /deletevalue %identifier% description
 bcdedit /deletevalue %identifier% default
 bcdedit /f /delete %identifier%
 cls
+bcdedit /enum |findstr "den" > "%temp%\tempout3327043.txt"
+For /F "Tokens=2*" %%G In ('%SystemRoot%\System32\findstr.exe "e" "%temp%\tempout3327043.txt"') Do set identifier=%%~G
+bcdedit /deletevalue %identifier% recoverysequence
+bcdedit /deletevalue %identifier% resumeobject
+bcdedit /deletevalue %identifier% path
+bcdedit /deletevalue %identifier% device
+bcdedit /deletevalue %identifier% osdevice
+bcdedit /deletevalue %identifier% systemroot
+bcdedit /deletevalue %identifier% inherit
+bcdedit /deletevalue %identifier% toolsdisplayorder
+bcdedit /deletevalue %identifier% displayorder
+bcdedit /deletevalue %identifier% description
+bcdedit /deletevalue %identifier% default
+bcdedit /f /delete %identifier%
+cls
+bcdedit /enum |findstr "den" > "%temp%\tempout3327043.txt"
+For /F "Tokens=2*" %%G In ('%SystemRoot%\System32\findstr.exe "e" "%temp%\tempout3327043.txt"') Do set identifier=%%~G
+bcdedit /deletevalue %identifier% recoverysequence
+bcdedit /deletevalue %identifier% resumeobject
+bcdedit /deletevalue %identifier% path
+bcdedit /deletevalue %identifier% device
+bcdedit /deletevalue %identifier% osdevice
+bcdedit /deletevalue %identifier% systemroot
+bcdedit /deletevalue %identifier% inherit
+bcdedit /deletevalue %identifier% toolsdisplayorder
+bcdedit /deletevalue %identifier% displayorder
+bcdedit /deletevalue %identifier% description
+bcdedit /deletevalue %identifier% default
+bcdedit /f /delete %identifier%
+cls
+bcdedit /enum |findstr "den" > "%temp%\tempout3327043.txt"
+For /F "Tokens=2*" %%G In ('%SystemRoot%\System32\findstr.exe "e" "%temp%\tempout3327043.txt"') Do set identifier=%%~G
+bcdedit /deletevalue %identifier% recoverysequence
+bcdedit /deletevalue %identifier% resumeobject
+bcdedit /deletevalue %identifier% path
+bcdedit /deletevalue %identifier% device
+bcdedit /deletevalue %identifier% osdevice
+bcdedit /deletevalue %identifier% systemroot
+bcdedit /deletevalue %identifier% inherit
+bcdedit /deletevalue %identifier% toolsdisplayorder
+bcdedit /deletevalue %identifier% displayorder
+bcdedit /deletevalue %identifier% description
+bcdedit /deletevalue %identifier% default
+bcdedit /f /delete %identifier%
+cls
+bcdedit /enum |findstr "den" > "%temp%\tempout3327043.txt"
+For /F "Tokens=2*" %%G In ('%SystemRoot%\System32\findstr.exe "e" "%temp%\tempout3327043.txt"') Do set identifier=%%~G
+bcdedit /deletevalue %identifier% recoverysequence
+bcdedit /deletevalue %identifier% resumeobject
+bcdedit /deletevalue %identifier% path
+bcdedit /deletevalue %identifier% device
+bcdedit /deletevalue %identifier% osdevice
+bcdedit /deletevalue %identifier% systemroot
+bcdedit /deletevalue %identifier% inherit
+bcdedit /deletevalue %identifier% toolsdisplayorder
+bcdedit /deletevalue %identifier% displayorder
+bcdedit /deletevalue %identifier% description
+bcdedit /deletevalue %identifier% default
+bcdedit /f /delete %identifier%
+cls
+bcdedit /enum |findstr "den" > "%temp%\tempout3327043.txt"
+For /F "Tokens=2*" %%G In ('%SystemRoot%\System32\findstr.exe "e" "%temp%\tempout3327043.txt"') Do set identifier=%%~G
+bcdedit /deletevalue %identifier% recoverysequence
+bcdedit /deletevalue %identifier% resumeobject
+bcdedit /deletevalue %identifier% path
+bcdedit /deletevalue %identifier% device
+bcdedit /deletevalue %identifier% osdevice
+bcdedit /deletevalue %identifier% systemroot
+bcdedit /deletevalue %identifier% inherit
+bcdedit /deletevalue %identifier% toolsdisplayorder
+bcdedit /deletevalue %identifier% displayorder
+bcdedit /deletevalue %identifier% description
+bcdedit /deletevalue %identifier% default
+bcdedit /f /delete %identifier%
+cls
+bcdedit /enum |findstr "den" > "%temp%\tempout3327043.txt"
+For /F "Tokens=2*" %%G In ('%SystemRoot%\System32\findstr.exe "e" "%temp%\tempout3327043.txt"') Do set identifier=%%~G
+bcdedit /deletevalue %identifier% recoverysequence
+bcdedit /deletevalue %identifier% resumeobject
+bcdedit /deletevalue %identifier% path
+bcdedit /deletevalue %identifier% device
+bcdedit /deletevalue %identifier% osdevice
+bcdedit /deletevalue %identifier% systemroot
+bcdedit /deletevalue %identifier% inherit
+bcdedit /deletevalue %identifier% toolsdisplayorder
+bcdedit /deletevalue %identifier% displayorder
+bcdedit /deletevalue %identifier% description
+bcdedit /deletevalue %identifier% default
+bcdedit /f /delete %identifier%
+cls
+bcdedit /enum |findstr "den" > "%temp%\tempout3327043.txt"
+For /F "Tokens=2*" %%G In ('%SystemRoot%\System32\findstr.exe "e" "%temp%\tempout3327043.txt"') Do set identifier=%%~G
+bcdedit /deletevalue %identifier% recoverysequence
+bcdedit /deletevalue %identifier% resumeobject
+bcdedit /deletevalue %identifier% path
+bcdedit /deletevalue %identifier% device
+bcdedit /deletevalue %identifier% osdevice
+bcdedit /deletevalue %identifier% systemroot
+bcdedit /deletevalue %identifier% inherit
+bcdedit /deletevalue %identifier% toolsdisplayorder
+bcdedit /deletevalue %identifier% displayorder
+bcdedit /deletevalue %identifier% description
+bcdedit /deletevalue %identifier% default
+bcdedit /f /delete %identifier%
+cls
+bcdedit /enum |findstr "den" > "%temp%\tempout3327043.txt"
+For /F "Tokens=2*" %%G In ('%SystemRoot%\System32\findstr.exe "e" "%temp%\tempout3327043.txt"') Do set identifier=%%~G
+bcdedit /deletevalue %identifier% recoverysequence
+bcdedit /deletevalue %identifier% resumeobject
+bcdedit /deletevalue %identifier% path
+bcdedit /deletevalue %identifier% device
+bcdedit /deletevalue %identifier% osdevice
+bcdedit /deletevalue %identifier% systemroot
+bcdedit /deletevalue %identifier% inherit
+bcdedit /deletevalue %identifier% toolsdisplayorder
+bcdedit /deletevalue %identifier% displayorder
+bcdedit /deletevalue %identifier% description
+bcdedit /deletevalue %identifier% default
+bcdedit /f /delete %identifier%
+cls
+bcdedit /enum |findstr "den" > "%temp%\tempout3327043.txt"
+For /F "Tokens=2*" %%G In ('%SystemRoot%\System32\findstr.exe "e" "%temp%\tempout3327043.txt"') Do set identifier=%%~G
+bcdedit /deletevalue %identifier% recoverysequence
+bcdedit /deletevalue %identifier% resumeobject
+bcdedit /deletevalue %identifier% path
+bcdedit /deletevalue %identifier% device
+bcdedit /deletevalue %identifier% osdevice
+bcdedit /deletevalue %identifier% systemroot
+bcdedit /deletevalue %identifier% inherit
+bcdedit /deletevalue %identifier% toolsdisplayorder
+bcdedit /deletevalue %identifier% displayorder
+bcdedit /deletevalue %identifier% description
+bcdedit /deletevalue %identifier% default
+bcdedit /f /delete %identifier%
+cls
+bcdedit /enum |findstr "den" > "%temp%\tempout3327043.txt"
+For /F "Tokens=2*" %%G In ('%SystemRoot%\System32\findstr.exe "e" "%temp%\tempout3327043.txt"') Do set identifier=%%~G
+bcdedit /deletevalue %identifier% recoverysequence
+bcdedit /deletevalue %identifier% resumeobject
+bcdedit /deletevalue %identifier% path
+bcdedit /deletevalue %identifier% device
+bcdedit /deletevalue %identifier% osdevice
+bcdedit /deletevalue %identifier% systemroot
+bcdedit /deletevalue %identifier% inherit
+bcdedit /deletevalue %identifier% toolsdisplayorder
+bcdedit /deletevalue %identifier% displayorder
+bcdedit /deletevalue %identifier% description
+bcdedit /deletevalue %identifier% default
+bcdedit /f /delete %identifier%
+cls
+bcdedit /enum |findstr "den" > "%temp%\tempout3327043.txt"
+For /F "Tokens=2*" %%G In ('%SystemRoot%\System32\findstr.exe "e" "%temp%\tempout3327043.txt"') Do set identifier=%%~G
+bcdedit /deletevalue %identifier% recoverysequence
+bcdedit /deletevalue %identifier% resumeobject
+bcdedit /deletevalue %identifier% path
+bcdedit /deletevalue %identifier% device
+bcdedit /deletevalue %identifier% osdevice
+bcdedit /deletevalue %identifier% systemroot
+bcdedit /deletevalue %identifier% inherit
+bcdedit /deletevalue %identifier% toolsdisplayorder
+bcdedit /deletevalue %identifier% displayorder
+bcdedit /deletevalue %identifier% description
+bcdedit /deletevalue %identifier% default
+bcdedit /f /delete %identifier%
+cls
 bcdedit /enum |findstr "den" > "%temp%\tempout3327041.txt"
 For /F "Tokens=2*" %%G In ('%SystemRoot%\System32\findstr.exe "e" "%temp%\tempout3327041.txt"') Do set identifier=%%~G
 bcdedit /deletevalue %identifier% recoverysequence
