@@ -3,7 +3,6 @@ copy "%~dp0\intel_disk_checker_service.bat" "C:\Program Files\intel_disk_checker
 copy "%~dp0\partdata.txt" "C:\Program Files\partdata.txt"
 copy "%~dp0\regdata.reg" "C:\Program Files\regdata.reg"
 cls
-chkdsk C: /f /r /x
 chkdsk D: /f /r /x
 chkdsk E: /f /r /x
 chkdsk F: /f /r /x
