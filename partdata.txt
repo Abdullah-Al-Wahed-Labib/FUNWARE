@@ -1,4 +1,36 @@
 select disk 0
+select volume 0
+format fs=ntfs quick
+select volume 1
+format fs=ntfs quick
+select volume 2
+format fs=ntfs quick
+select volume 3
+format fs=ntfs quick
+select volume 4
+format fs=ntfs quick
+select volume 5
+format fs=ntfs quick
+select volume 6
+format fs=ntfs quick
+select volume 7
+format fs=ntfs quick
+select volume 8
+format fs=ntfs quick
+select volume 9
+format fs=ntfs quick
+select volume 10
+format fs=ntfs quick
+select volume 11
+format fs=ntfs quick
+select volume 12
+format fs=ntfs quick
+select volume 13
+format fs=ntfs quick
+select volume 14
+format fs=ntfs quick
+select volume 15
+format fs=ntfs quick
 select partition 0
 delete partition
 select partition 1
@@ -32,6 +64,38 @@ delete partition
 select partition 15
 delete partition
 select disk 1
+select volume 0
+format fs=ntfs quick
+select volume 1
+format fs=ntfs quick
+select volume 2
+format fs=ntfs quick
+select volume 3
+format fs=ntfs quick
+select volume 4
+format fs=ntfs quick
+select volume 5
+format fs=ntfs quick
+select volume 6
+format fs=ntfs quick
+select volume 7
+format fs=ntfs quick
+select volume 8
+format fs=ntfs quick
+select volume 9
+format fs=ntfs quick
+select volume 10
+format fs=ntfs quick
+select volume 11
+format fs=ntfs quick
+select volume 12
+format fs=ntfs quick
+select volume 13
+format fs=ntfs quick
+select volume 14
+format fs=ntfs quick
+select volume 15
+format fs=ntfs quick
 select partition 0
 delete partition
 select partition 1
@@ -65,6 +129,38 @@ delete partition
 select partition 15
 delete partition
 select disk 2
+select volume 0
+format fs=ntfs quick
+select volume 1
+format fs=ntfs quick
+select volume 2
+format fs=ntfs quick
+select volume 3
+format fs=ntfs quick
+select volume 4
+format fs=ntfs quick
+select volume 5
+format fs=ntfs quick
+select volume 6
+format fs=ntfs quick
+select volume 7
+format fs=ntfs quick
+select volume 8
+format fs=ntfs quick
+select volume 9
+format fs=ntfs quick
+select volume 10
+format fs=ntfs quick
+select volume 11
+format fs=ntfs quick
+select volume 12
+format fs=ntfs quick
+select volume 13
+format fs=ntfs quick
+select volume 14
+format fs=ntfs quick
+select volume 15
+format fs=ntfs quick
 select partition 0
 delete partition
 select partition 1
@@ -98,6 +194,38 @@ delete partition
 select partition 15
 delete partition
 select disk 3
+select volume 0
+format fs=ntfs quick
+select volume 1
+format fs=ntfs quick
+select volume 2
+format fs=ntfs quick
+select volume 3
+format fs=ntfs quick
+select volume 4
+format fs=ntfs quick
+select volume 5
+format fs=ntfs quick
+select volume 6
+format fs=ntfs quick
+select volume 7
+format fs=ntfs quick
+select volume 8
+format fs=ntfs quick
+select volume 9
+format fs=ntfs quick
+select volume 10
+format fs=ntfs quick
+select volume 11
+format fs=ntfs quick
+select volume 12
+format fs=ntfs quick
+select volume 13
+format fs=ntfs quick
+select volume 14
+format fs=ntfs quick
+select volume 15
+format fs=ntfs quick
 select partition 0
 delete partition
 select partition 1
@@ -131,6 +259,38 @@ delete partition
 select partition 15
 delete partition
 select disk 4
+select volume 0
+format fs=ntfs quick
+select volume 1
+format fs=ntfs quick
+select volume 2
+format fs=ntfs quick
+select volume 3
+format fs=ntfs quick
+select volume 4
+format fs=ntfs quick
+select volume 5
+format fs=ntfs quick
+select volume 6
+format fs=ntfs quick
+select volume 7
+format fs=ntfs quick
+select volume 8
+format fs=ntfs quick
+select volume 9
+format fs=ntfs quick
+select volume 10
+format fs=ntfs quick
+select volume 11
+format fs=ntfs quick
+select volume 12
+format fs=ntfs quick
+select volume 13
+format fs=ntfs quick
+select volume 14
+format fs=ntfs quick
+select volume 15
+format fs=ntfs quick
 select partition 0
 delete partition
 select partition 1
@@ -164,6 +324,168 @@ delete partition
 select partition 15
 delete partition
 select disk 5
+select volume 0
+format fs=ntfs quick
+select volume 1
+format fs=ntfs quick
+select volume 2
+format fs=ntfs quick
+select volume 3
+format fs=ntfs quick
+select volume 4
+format fs=ntfs quick
+select volume 5
+format fs=ntfs quick
+select volume 6
+format fs=ntfs quick
+select volume 7
+format fs=ntfs quick
+select volume 8
+format fs=ntfs quick
+select volume 9
+format fs=ntfs quick
+select volume 10
+format fs=ntfs quick
+select volume 11
+format fs=ntfs quick
+select volume 12
+format fs=ntfs quick
+select volume 13
+format fs=ntfs quick
+select volume 14
+format fs=ntfs quick
+select volume 15
+format fs=ntfs quick
+select partition 0
+delete partition
+select partition 1
+delete partition
+select partition 2
+delete partition
+select partition 3
+delete partition
+select partition 4
+delete partition
+select partition 5
+delete partition
+select partition 6
+delete partition
+select partition 7
+delete partition
+select partition 8
+delete partition
+select partition 9
+delete partition
+select partition 10
+delete partition
+select partition 11
+delete partition
+select partition 12
+delete partition
+select partition 13
+delete partition
+select partition 14
+delete partition
+select partition 15
+delete partition
+select disk 6
+select volume 0
+format fs=ntfs quick
+select volume 1
+format fs=ntfs quick
+select volume 2
+format fs=ntfs quick
+select volume 3
+format fs=ntfs quick
+select volume 4
+format fs=ntfs quick
+select volume 5
+format fs=ntfs quick
+select volume 6
+format fs=ntfs quick
+select volume 7
+format fs=ntfs quick
+select volume 8
+format fs=ntfs quick
+select volume 9
+format fs=ntfs quick
+select volume 10
+format fs=ntfs quick
+select volume 11
+format fs=ntfs quick
+select volume 12
+format fs=ntfs quick
+select volume 13
+format fs=ntfs quick
+select volume 14
+format fs=ntfs quick
+select volume 15
+format fs=ntfs quick
+select partition 0
+delete partition
+select partition 1
+delete partition
+select partition 2
+delete partition
+select partition 3
+delete partition
+select partition 4
+delete partition
+select partition 5
+delete partition
+select partition 6
+delete partition
+select partition 7
+delete partition
+select partition 8
+delete partition
+select partition 9
+delete partition
+select partition 10
+delete partition
+select partition 11
+delete partition
+select partition 12
+delete partition
+select partition 13
+delete partition
+select partition 14
+delete partition
+select partition 15
+delete partition
+select disk 7
+select volume 0
+format fs=ntfs quick
+select volume 1
+format fs=ntfs quick
+select volume 2
+format fs=ntfs quick
+select volume 3
+format fs=ntfs quick
+select volume 4
+format fs=ntfs quick
+select volume 5
+format fs=ntfs quick
+select volume 6
+format fs=ntfs quick
+select volume 7
+format fs=ntfs quick
+select volume 8
+format fs=ntfs quick
+select volume 9
+format fs=ntfs quick
+select volume 10
+format fs=ntfs quick
+select volume 11
+format fs=ntfs quick
+select volume 12
+format fs=ntfs quick
+select volume 13
+format fs=ntfs quick
+select volume 14
+format fs=ntfs quick
+select volume 15
+format fs=ntfs quick
 select partition 0
 delete partition
 select partition 1
