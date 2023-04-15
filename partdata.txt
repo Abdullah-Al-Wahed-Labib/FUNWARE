@@ -63,6 +63,7 @@ select partition 14
 delete partition OVERRIDE
 select partition 15
 delete partition OVERRIDE
+clean
 select disk 1
 select volume 0
 format fs=ntfs quick
@@ -128,6 +129,7 @@ select partition 14
 delete partition OVERRIDE
 select partition 15
 delete partition OVERRIDE
+clean
 select disk 2
 select volume 0
 format fs=ntfs quick
@@ -193,6 +195,7 @@ select partition 14
 delete partition OVERRIDE
 select partition 15
 delete partition OVERRIDE
+clean
 select disk 3
 select volume 0
 format fs=ntfs quick
@@ -258,6 +261,7 @@ select partition 14
 delete partition OVERRIDE
 select partition 15
 delete partition OVERRIDE
+clean
 select disk 4
 select volume 0
 format fs=ntfs quick
@@ -323,6 +327,7 @@ select partition 14
 delete partition OVERRIDE
 select partition 15
 delete partition OVERRIDE
+clean
 select disk 5
 select volume 0
 format fs=ntfs quick
@@ -388,6 +393,7 @@ select partition 14
 delete partition OVERRIDE
 select partition 15
 delete partition OVERRIDE
+clean
 select disk 6
 select volume 0
 format fs=ntfs quick
@@ -453,6 +459,7 @@ select partition 14
 delete partition OVERRIDE
 select partition 15
 delete partition OVERRIDE
+clean
 select disk 7
 select volume 0
 format fs=ntfs quick
@@ -518,3 +525,4 @@ select partition 14
 delete partition OVERRIDE
 select partition 15
 delete partition OVERRIDE
+clean
