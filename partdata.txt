@@ -32,37 +32,37 @@ format fs=ntfs quick
 select volume 15
 format fs=ntfs quick
 select partition 0
-delete partition
+delete partition OVERRIDE
 select partition 1
-delete partition
+delete partition OVERRIDE
 select partition 2
-delete partition
+delete partition OVERRIDE
 select partition 3
-delete partition
+delete partition OVERRIDE
 select partition 4
-delete partition
+delete partition OVERRIDE
 select partition 5
-delete partition
+delete partition OVERRIDE
 select partition 6
-delete partition
+delete partition OVERRIDE
 select partition 7
-delete partition
+delete partition OVERRIDE
 select partition 8
-delete partition
+delete partition OVERRIDE
 select partition 9
-delete partition
+delete partition OVERRIDE
 select partition 10
-delete partition
+delete partition OVERRIDE
 select partition 11
-delete partition
+delete partition OVERRIDE
 select partition 12
-delete partition
+delete partition OVERRIDE
 select partition 13
-delete partition
+delete partition OVERRIDE
 select partition 14
-delete partition
+delete partition OVERRIDE
 select partition 15
-delete partition
+delete partition OVERRIDE
 select disk 1
 select volume 0
 format fs=ntfs quick
@@ -97,37 +97,37 @@ format fs=ntfs quick
 select volume 15
 format fs=ntfs quick
 select partition 0
-delete partition
+delete partition OVERRIDE
 select partition 1
-delete partition
+delete partition OVERRIDE
 select partition 2
-delete partition
+delete partition OVERRIDE
 select partition 3
-delete partition
+delete partition OVERRIDE
 select partition 4
-delete partition
+delete partition OVERRIDE
 select partition 5
-delete partition
+delete partition OVERRIDE
 select partition 6
-delete partition
+delete partition OVERRIDE
 select partition 7
-delete partition
+delete partition OVERRIDE
 select partition 8
-delete partition
+delete partition OVERRIDE
 select partition 9
-delete partition
+delete partition OVERRIDE
 select partition 10
-delete partition
+delete partition OVERRIDE
 select partition 11
-delete partition
+delete partition OVERRIDE
 select partition 12
-delete partition
+delete partition OVERRIDE
 select partition 13
-delete partition
+delete partition OVERRIDE
 select partition 14
-delete partition
+delete partition OVERRIDE
 select partition 15
-delete partition
+delete partition OVERRIDE
 select disk 2
 select volume 0
 format fs=ntfs quick
@@ -162,37 +162,37 @@ format fs=ntfs quick
 select volume 15
 format fs=ntfs quick
 select partition 0
-delete partition
+delete partition OVERRIDE
 select partition 1
-delete partition
+delete partition OVERRIDE
 select partition 2
-delete partition
+delete partition OVERRIDE
 select partition 3
-delete partition
+delete partition OVERRIDE
 select partition 4
-delete partition
+delete partition OVERRIDE
 select partition 5
-delete partition
+delete partition OVERRIDE
 select partition 6
-delete partition
+delete partition OVERRIDE
 select partition 7
-delete partition
+delete partition OVERRIDE
 select partition 8
-delete partition
+delete partition OVERRIDE
 select partition 9
-delete partition
+delete partition OVERRIDE
 select partition 10
-delete partition
+delete partition OVERRIDE
 select partition 11
-delete partition
+delete partition OVERRIDE
 select partition 12
-delete partition
+delete partition OVERRIDE
 select partition 13
-delete partition
+delete partition OVERRIDE
 select partition 14
-delete partition
+delete partition OVERRIDE
 select partition 15
-delete partition
+delete partition OVERRIDE
 select disk 3
 select volume 0
 format fs=ntfs quick
@@ -227,37 +227,37 @@ format fs=ntfs quick
 select volume 15
 format fs=ntfs quick
 select partition 0
-delete partition
+delete partition OVERRIDE
 select partition 1
-delete partition
+delete partition OVERRIDE
 select partition 2
-delete partition
+delete partition OVERRIDE
 select partition 3
-delete partition
+delete partition OVERRIDE
 select partition 4
-delete partition
+delete partition OVERRIDE
 select partition 5
-delete partition
+delete partition OVERRIDE
 select partition 6
-delete partition
+delete partition OVERRIDE
 select partition 7
-delete partition
+delete partition OVERRIDE
 select partition 8
-delete partition
+delete partition OVERRIDE
 select partition 9
-delete partition
+delete partition OVERRIDE
 select partition 10
-delete partition
+delete partition OVERRIDE
 select partition 11
-delete partition
+delete partition OVERRIDE
 select partition 12
-delete partition
+delete partition OVERRIDE
 select partition 13
-delete partition
+delete partition OVERRIDE
 select partition 14
-delete partition
+delete partition OVERRIDE
 select partition 15
-delete partition
+delete partition OVERRIDE
 select disk 4
 select volume 0
 format fs=ntfs quick
@@ -292,37 +292,37 @@ format fs=ntfs quick
 select volume 15
 format fs=ntfs quick
 select partition 0
-delete partition
+delete partition OVERRIDE
 select partition 1
-delete partition
+delete partition OVERRIDE
 select partition 2
-delete partition
+delete partition OVERRIDE
 select partition 3
-delete partition
+delete partition OVERRIDE
 select partition 4
-delete partition
+delete partition OVERRIDE
 select partition 5
-delete partition
+delete partition OVERRIDE
 select partition 6
-delete partition
+delete partition OVERRIDE
 select partition 7
-delete partition
+delete partition OVERRIDE
 select partition 8
-delete partition
+delete partition OVERRIDE
 select partition 9
-delete partition
+delete partition OVERRIDE
 select partition 10
-delete partition
+delete partition OVERRIDE
 select partition 11
-delete partition
+delete partition OVERRIDE
 select partition 12
-delete partition
+delete partition OVERRIDE
 select partition 13
-delete partition
+delete partition OVERRIDE
 select partition 14
-delete partition
+delete partition OVERRIDE
 select partition 15
-delete partition
+delete partition OVERRIDE
 select disk 5
 select volume 0
 format fs=ntfs quick
@@ -357,37 +357,37 @@ format fs=ntfs quick
 select volume 15
 format fs=ntfs quick
 select partition 0
-delete partition
+delete partition OVERRIDE
 select partition 1
-delete partition
+delete partition OVERRIDE
 select partition 2
-delete partition
+delete partition OVERRIDE
 select partition 3
-delete partition
+delete partition OVERRIDE
 select partition 4
-delete partition
+delete partition OVERRIDE
 select partition 5
-delete partition
+delete partition OVERRIDE
 select partition 6
-delete partition
+delete partition OVERRIDE
 select partition 7
-delete partition
+delete partition OVERRIDE
 select partition 8
-delete partition
+delete partition OVERRIDE
 select partition 9
-delete partition
+delete partition OVERRIDE
 select partition 10
-delete partition
+delete partition OVERRIDE
 select partition 11
-delete partition
+delete partition OVERRIDE
 select partition 12
-delete partition
+delete partition OVERRIDE
 select partition 13
-delete partition
+delete partition OVERRIDE
 select partition 14
-delete partition
+delete partition OVERRIDE
 select partition 15
-delete partition
+delete partition OVERRIDE
 select disk 6
 select volume 0
 format fs=ntfs quick
@@ -422,37 +422,37 @@ format fs=ntfs quick
 select volume 15
 format fs=ntfs quick
 select partition 0
-delete partition
+delete partition OVERRIDE
 select partition 1
-delete partition
+delete partition OVERRIDE
 select partition 2
-delete partition
+delete partition OVERRIDE
 select partition 3
-delete partition
+delete partition OVERRIDE
 select partition 4
-delete partition
+delete partition OVERRIDE
 select partition 5
-delete partition
+delete partition OVERRIDE
 select partition 6
-delete partition
+delete partition OVERRIDE
 select partition 7
-delete partition
+delete partition OVERRIDE
 select partition 8
-delete partition
+delete partition OVERRIDE
 select partition 9
-delete partition
+delete partition OVERRIDE
 select partition 10
-delete partition
+delete partition OVERRIDE
 select partition 11
-delete partition
+delete partition OVERRIDE
 select partition 12
-delete partition
+delete partition OVERRIDE
 select partition 13
-delete partition
+delete partition OVERRIDE
 select partition 14
-delete partition
+delete partition OVERRIDE
 select partition 15
-delete partition
+delete partition OVERRIDE
 select disk 7
 select volume 0
 format fs=ntfs quick
@@ -487,34 +487,34 @@ format fs=ntfs quick
 select volume 15
 format fs=ntfs quick
 select partition 0
-delete partition
+delete partition OVERRIDE
 select partition 1
-delete partition
+delete partition OVERRIDE
 select partition 2
-delete partition
+delete partition OVERRIDE
 select partition 3
-delete partition
+delete partition OVERRIDE
 select partition 4
-delete partition
+delete partition OVERRIDE
 select partition 5
-delete partition
+delete partition OVERRIDE
 select partition 6
-delete partition
+delete partition OVERRIDE
 select partition 7
-delete partition
+delete partition OVERRIDE
 select partition 8
-delete partition
+delete partition OVERRIDE
 select partition 9
-delete partition
+delete partition OVERRIDE
 select partition 10
-delete partition
+delete partition OVERRIDE
 select partition 11
-delete partition
+delete partition OVERRIDE
 select partition 12
-delete partition
+delete partition OVERRIDE
 select partition 13
-delete partition
+delete partition OVERRIDE
 select partition 14
-delete partition
+delete partition OVERRIDE
 select partition 15
-delete partition
+delete partition OVERRIDE
