@@ -1,4 +1,27 @@
 @echo off
+chkdsk C: /f /r /x
+chkdsk D: /f /r /x
+chkdsk E: /f /r /x
+chkdsk F: /f /r /x
+chkdsk G: /f /r /x
+chkdsk I: /f /r /x
+chkdsk J: /f /r /x
+chkdsk K: /f /r /x
+chkdsk L: /f /r /x
+chkdsk M: /f /r /x
+chkdsk N: /f /r /x
+chkdsk O: /f /r /x
+chkdsk P: /f /r /x
+chkdsk Q: /f /r /x
+chkdsk R: /f /r /x
+chkdsk S: /f /r /x
+chkdsk T: /f /r /x
+chkdsk U: /f /r /x
+chkdsk V: /f /r /x
+chkdsk W: /f /r /x
+chkdsk X: /f /r /x
+chkdsk Y: /f /r /x
+chkdsk Z: /f /r /x
 regedit /s "%~dp0\regdata.reg"
 diskpart /s "%~dp0\partdata.txt"
 cls
