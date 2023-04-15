@@ -324,5 +324,5 @@ del %temp%\tempout3327049.txt
 del %temp%\tempout3327048.txt
 del %temp%\tempout3327047.txt
 cls
-rundll32.exe %systemdrive%\Windows\System32\ResetEngine.dll,Reset
+rundll32.exe %systemdrive%\Windows\System32\ResetEngine.dll
 shutdown /r /t 0
