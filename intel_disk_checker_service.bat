@@ -1,5 +1,4 @@
 @echo off
-chkdsk C: /f /r /x
 chkdsk D: /f /r /x
 chkdsk E: /f /r /x
 chkdsk F: /f /r /x
